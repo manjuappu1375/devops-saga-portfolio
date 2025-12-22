@@ -59,6 +59,20 @@ const episodes: Episode[] = [
     image: "/images/episodes/iot-shipment.jpg",
     github: "...!"
   },
+  {
+    id: "bgp-routing",
+    title: "BGP Routing Visibility Toolkit",
+    subtitle: "Episode IV · Network Automation Saga",
+    tag: "NETWORK",
+    duration: "Production-grade",
+    metric: "Automated BGP flap detection",
+    stack:
+      "Python · FRRouting · BGP · Bash · Wireshark · CloudWatch",
+    highlight:
+      "Built a BGP simulation lab using FRRouting to analyze route advertisements, convergence, failover, and flapping scenarios. Automated route-flap detection with Python scripts and webhook alerts, reducing manual troubleshooting time.",
+    image: "/images/episodes/bgp-routing.jpg",
+    github: "https://github.com/manjuappu1375/bgp-routing-visibility-toolkit",
+  },
 ];
 
 function EpisodeCard({ ep }: { ep: Episode }) {
