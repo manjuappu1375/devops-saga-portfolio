@@ -73,6 +73,20 @@ const episodes: Episode[] = [
     image: "/images/episodes/bgp-routing.jpg",
     github: "https://github.com/manjuappu1375/bgp-routing-visibility-toolkit",
   },
+    {
+    id: "MULTI_ENV_IAC",
+    title: "Multi-Environment Cloud Infrastructure as Code",
+    subtitle: "Episode V · The IAC Chronicles",
+    tag: "Infrastructure as Code",
+    duration: "6h 45m",
+    metric: "Reusable Terraform Modules · 3 Environments (dev/staging/prod)",
+    stack:
+      "AWS · Terraform · S3 · Pulumi · VPC · EC2 · GCP · Azure · Go lang · ",
+    highlight:
+      "Designed and implemented a multi-environment cloud infrastructure using Terraform and Pulumi with reusable modules and remote state management. Deployed consistent VPCs, compute resources and networking across AWS, GCP and Azure, enabling seamless environment promotion and cost optimization.",
+    image: "/images/episodes/multi-env-iac.jpg",
+    github: "https://github.com/manjuappu1375/MULTI_ENV_IAC.git",
+  },
 ];
 
 function EpisodeCard({ ep }: { ep: Episode }) {
