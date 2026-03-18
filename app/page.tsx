@@ -73,7 +73,7 @@ const episodes: Episode[] = [
     image: "/images/episodes/bgp-routing.jpg",
     github: "https://github.com/manjuappu1375/bgp-routing-visibility-toolkit",
   },
-    {
+  {
     id: "MULTI_ENV_IAC",
     title: "Multi-Environment Cloud Infrastructure as Code",
     subtitle: "Episode V · The IAC Chronicles",
@@ -87,6 +87,19 @@ const episodes: Episode[] = [
     image: "/images/episodes/multi-env-iac.jpg",
     github: "https://github.com/manjuappu1375/MULTI_ENV_IAC.git",
   },
+  {
+  id: "LLM_OPS_ASSISTANT",
+  title: "Agentic LLM Ops Assistant",
+  subtitle: "Episode VI · The Agentic Chronicles",
+  tag: "AI · Cloud Ops",
+  duration: "3h 20m",
+  metric: "2 LLM Models · Serverless Pipeline · 3 AWS Services",
+  stack: "Python · Go · Claude API · OpenAI · AWS Lambda · EventBridge · CloudFormation",
+  highlight:
+    "Designed a lightweight agentic pipeline integrating Claude (Anthropic) and OpenAI APIs to automate incident classification and response suggestions for cloud infrastructure events. Deployed as a serverless Lambda function triggered by CloudWatch alarms via EventBridge, with Go-based CLI tooling for pipeline interaction.",
+  image: "/images/episodes/llm-ops-assistant.jpg",
+  github: "https://github.com/manjuappu1375/Llm-Ops.git",
+ },
 ];
 
 function EpisodeCard({ ep }: { ep: Episode }) {
